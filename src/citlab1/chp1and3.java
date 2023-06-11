@@ -288,6 +288,49 @@ sale price = 68
 	int xx2 = 80;
 	System.out.println("question 10 : " + xx1 * xx2);
 	
+	
+	
+	/*write a pseudocode fpr a problem to calculate a cars gas mileage
+	 * 
+	 * 
+	 * 
+	 * INPUT : milesDriven, gasUsed
+	 * 
+	 * output: mileage
+	 * 1.start
+	 * 2. input milesDriven
+	 * 3.input gasUsed
+	 * 4.set mileage = milesDriven / gas used
+	 *  5. end
+	 * 
+	 */
+	
+	
+	/*write a pseudocode for  a problem to calcluakte the total cost to buying 4 plane tikets.
+	 * 
+	 * input : ticketPrice
+	 * output: totalPricw
+	 * 
+	 * 
+	 * 	1. start
+	 * 2. input ticketPrice
+	 * 3.set TotalPrice = 4 * ticketprice
+	 *	4. Display totalaPrice
+	 *5. end 
+	 * 
+	 * 
+	 * 
+	 */
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+	//The modulus operator 
+	
+	
+	//15 % 2 = 1 
+			//this is because 15 % 2 = 7 with a remidner of 1
+	
+System.out.println("modulus operations example : 15 % 2 = : "); 	
+System.out.println(15 % 2 );
+
 	}
 }
 
