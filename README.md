@@ -9,5 +9,3 @@ understanding the basics of programing.
 	
 	<img width="914" alt="Screen Shot 2023-06-10 at 6 50 17 PM" src="https://github.com/White-OvO/citClassPython/assets/120700219/9a8d04d5-a759-41b0-825c-f6cd43485bc0">
 
-	
-	<img width="918" alt="Screen Shot 2023-06-10 at 6 50 24 PM" src="https://github.com/White-OvO/citClassPython/assets/120700219/b3de1cea-3a33-4502-aa7d-ab44a953007a">
