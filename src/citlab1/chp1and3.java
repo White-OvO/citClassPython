@@ -1,5 +1,7 @@
 package citlab1;
 
+import java.util.Scanner;
+
 public class chp1and3 {
 
 	public static void main(String[] args) {
@@ -14,7 +16,33 @@ public class chp1and3 {
 		 * 
 		 * 
 		 * 
-		 * 5. When I turn off my computer, all my data in memory is lost (TRUE or FALSE)?
+		 * 
+		 * 1. What is my alternate email address when Canvas is not working?
+		 * 
+		 * ans:
+The alternate email address when canvas is not working is efat.taghva@csn.edu
+		 * 
+2. What is the total percentage of grade assigned to labs?
+
+The percentage of a graded assignment for the labs are 
+Lab assignments – 10% 
+
+3. One KiloByte is approximately how many Bytes?
+
+There are approximately 1000 bytes per kilobyte. 
+
+4. What does the CPU do?
+The CPU is the brain of the computer, receiving program steps just as raptor pseudo 
+code format. The arithmetic and logical operations this is how the computer stores 
+information and the order matter that it comprehend with. Manipulating other computers 
+and working as one.The cpu is filled with thousands of transmitters that interact with the computer. 
+
+5. When I turn off my computer, all my data in memory is lost (TRUE or FALSE)?
+
+
+When someone turns off their computer memory is lost. The ram is in charge of this duty and having the system shut down without saving any data will cause it to erase. 
+
+
 6. What is the value of the following expression? 22 + 8 – 6 * 3
 Ans: 12
 
@@ -96,11 +124,84 @@ bank account. Ask the user for:
 a. The starting balance
 b. The amount of deposit
 c. The amount of withdrawals
+		 * ANS: write "Good morning would you like to check balance?"
+		 * input: 
+		 * balance
 		 * 
+		 * write " amount of deposit is  + deposit"
 		 * 
+		 * input deposit
 		 * 
+		 * write " amount that you are withdrawing today is"
+		 * input withdraw
+		 * 
+		 * write "avaliable balance is"
+		 * 
+		 * input balance
 		 * 
 		 */
+		
+/*the pseudocode above is incorrct
+ * 
+ * Compute the cost of downloading music online
+ * 
+ * input thr number of songs to purchase, Songs
+ * 
+ * Input Songs
+ * 
+ * Compute the total cost
+ * Set DollarPrice = 0.99 * Songs 
+ * 
+ * output the total cost:
+ * 
+ * Write DollarPrice
+ * 
+ * ------------------------------------------------------
+ * in the example above we used both Songs and DollarPrice variable which we give dollarprice 0.99 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 		
+ */
+		
+		
+		
+		
+
+		
+		int Songs = 0;
+		double DollarPrice = 0.0;
+		
+		Scanner scanner = new Scanner(System.in);
+			System.out.println("Enter the amount of songs you wish to purchase today. ");
+		Songs = scanner.nextInt();
+		DollarPrice = 0.99 * Songs;
+		System.out.println("Your total is : " + DollarPrice);
+		
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -188,5 +289,5 @@ sale price = 68
 	System.out.println("question 10 : " + xx1 * xx2);
 	
 	}
-
 }
+
