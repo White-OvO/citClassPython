@@ -1,9 +1,3 @@
-# citClassPython
-<<<<<<< HEAD
-# citClassPython
-# citClassPython
-# citClassPython
-=======
 
 <div align="center">
 	<h1>This code is my cit lab work .
