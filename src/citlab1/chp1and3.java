@@ -169,7 +169,8 @@ c. The amount of withdrawals
 		
 		
 		
-		
+		System.out.println("Welcome we are simulating the total cost for a total of cds that you are checkng out:"
+				+ 	"\n" + "please follow directions: ");
 
 		
 		int Songs = 0;
@@ -181,7 +182,37 @@ c. The amount of withdrawals
 		DollarPrice = 0.99 * Songs;
 		System.out.println("Your total is : " + DollarPrice);
 		
-
+// pesudocode for music purchase
+		/*Write " Enter the number of songs you wish to purchase: " 
+		 * Input Songs     //input the number of songs
+		 * Set DollarPrice = 0.99 * Songs  // compute total cost
+		 * Wrie DollarPrice  // output the total cost
+		 * 
+		 * 
+		 * : variables are : Songs and DollarPrice
+		 * 
+		 * : Constants : 0.99
+		 */
+		
+// write will print information on the screen
+//input causes the execution to pause. 		
+// the world DollarPrice will not display rather the amount of dllar price will
+		
+		
+	/*The word Input indicates that a user has entered a value
+	 * 
+	 * Example : 
+	 * Write " Enter the number of songs purchase today. "
+	 * 
+	 * Input Songs
+	 * 
+	 * 
+	 */
+		
+		
+		
+		
+		
 
 		
 		
@@ -320,6 +351,10 @@ sale price = 68
 	 * 
 	 * 
 	 * 
+	 * 
+	 * keep in mind that in pseudocode there can be either otherwise or else. they are both the same
+	 * 
+	 * 
 	 */
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 	//The modulus operator 
@@ -328,9 +363,144 @@ sale price = 68
 	//15 % 2 = 1 
 			//this is because 15 % 2 = 7 with a remidner of 1
 	
-System.out.println("modulus operations example : 15 % 2 = : "); 	
+System.out.print("modulus operations example : 15 % 2 = : "); 	
 System.out.println(15 % 2 );
 
+// making a + a + a (b times) 
+// or as 
+// making b + b + b (a times) 
+
+
+/*inputs : a and b ,
+ * posititve integers
+ * 
+ * 
+ * set result to 0 
+ * 
+ * while a > 0:
+ * set result to result +  b
+ * set a to a -1 
+ * 
+ */
+
+
+
+/*one way to find if n is prime to see if any number between 2 and root of n is a factor of n 
+ * 
+ * 
+ *  arrang  a set of instructions that show an algorithm that correctly determines whether any number between 2 and root of n evenly is divided by n
+ *  
+ *  input: n , an integer greater than 1
+ *  
+ *  set test to 2
+ *  
+ *  set num_factors to 0
+ *  
+ *  while test x test < or equal to n : 
+ *  	if test evenly divies n: 
+ *  	set num_factors
+ *  	to num_factors + 1
+ *  	
+ *  	set test to test + 1
+ *  
+ *  if num_factors > 0; 
+ *  	announce " n is not prime" 
+ *  else
+ *  	announce "  n is prime" 
+ *  
+ * 
+ *  
+ */////////////////////////////binary to decimal 
+System.out.println("Part two the lab week 0-3 : ");
+System.out.println("we are now going to conver bionary to decimals: ");
+
+Scanner scanner2    = new Scanner(System.in);
+String binaryString;
+
+
+System.out.println("Enter a binary Number");
+binaryString = scanner.next();
+
+
+
+int baseValue = 2;
+int expValue = 0;
+int powerValue = 1;
+int decNum = 0;
+int i2 = binaryString.length() - 1;
+	while(i2 >= 0) {
+		if(binaryString.charAt(i2) == '1') {
+			for(int j = 0; j < expValue; j++) { 
+				powerValue *= baseValue;
+				
+			}
+		
+		decNum += powerValue;
+		powerValue = 1; 
+		 
+		}
+		i2--;
+		expValue++;
+		
+		
+	}
+	System.out.println( "Decimal number is " + decNum);
+	
+// decimal to binary
+	
+	//System.out.println("D");
+	Scanner sc = new Scanner(System.in);
+	System.out.print("\n" + "Enter decimal number");
+	int d=sc.nextInt();
+	System.out.print("Binary equivalent of " + d + " is : " );
+	System.out.println(Integer.toBinaryString(d));
+	
+	System.out.print("Enter binary number : ");
+	String b2=sc.next();
+	System.out.print("Decimal equivalent of " + b2+ " is : ");
+	System.out.println(Integer.parseInt(b2,2));
+	
+	
+	
+	
+	
+	// chp.3 
+		/*
+		 * This example is for a program to process age values: Ask for a person's age in years.
+		 * Validate the age so that any age value less than 0 result in an error message. If the 
+		 * age is valid, calculate and display age in days
+		 */
+	System.out.println("Enter your age: ");
+	Scanner sc3 = new Scanner(System.in);
+	//int sc3.nextInt();
+	int sc36=sc.nextInt();
+
+	
+	System.out.println("your age is "+ sc3);
+	
+	
+	//sales tax rate
+///////////////////////////////////////////////////////////////////////////////////////
+//	pseuedocdode 
+	
+	// variables : itemName, salePrice, Tax, TotalPrice
+	
+//	salePrice = originalPrice - AmountSaved
+//			AmountSaved = originalPrice * (DiscountRate/100)
+//			tax = salePrice * 0.65
+//			TotalPrice = salePrice + Tax
+	
+		// "Enter the original price" 
+	// inputs: originalPrice 
+	
+	// "Enter the discount rate"
+	// input: discountRate
+	
+	// formula : calculate sale price:                                          //	salePrice = originalPrice - AmountSaved
+			//  SET salePrice
+			//	to originalPrice - amountSaved
+	
+	
 	}
 }
 
