@@ -8,3 +8,9 @@ understanding the basics of programing.
 <img width="914" alt="Screen Shot 2023-06-10 at 6 50 17 PM" src="https://github.com/White-OvO/citClassPython/assets/120700219/0f1c7cb7-da74-4d35-9ef1-fb04e26d42e8">
 >>>>>>> 077586e32457e895d42f6d3c96b6b8baa100e98a
 # cit129HomeMac
+	
+	##
+	
+	
+	
+<img width="902" alt="Screen Shot 2023-06-13 at 8 32 38 PM" src="https://github.com/White-OvO/citClassPython/assets/120700219/e896d2ba-1cd9-4cbe-acf1-872b5c4ac218">
