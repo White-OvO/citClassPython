@@ -24,7 +24,7 @@ understanding the basics of programing.
 
 <h1>
 	Section 3.1 excerise 
- code in chp1and3.java
+ code in chp3CodeAlongs.java
 	
 </h1>
 
