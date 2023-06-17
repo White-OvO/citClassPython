@@ -20,3 +20,14 @@ understanding the basics of programing.
 	
 	
 <img width="1265" alt="Screen Shot 2023-06-13 at 10 04 52 PM" src="https://github.com/White-OvO/citClassPython/assets/120700219/b569b073-ddd5-4b66-b6e2-bb8c6a3f1028">
+
+
+<h1>
+	Section 3.1 excerise 
+	
+</h1>
+
+#
+
+
+<img width="1463" alt="Screen Shot 2023-06-17 at 10 14 08 AM" src="https://github.com/White-OvO/citClassPython/assets/120700219/5dd63c3f-80b6-411e-a843-dd340780c453">
