@@ -2,7 +2,7 @@ package citlab1;
 
 import java.util.Scanner;
 
-public class chp1and3 {
+public class chp3codeAlongs {
 
 	public static void main(String[] args) {
 // do not upload
